@@ -1,0 +1,84 @@
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid beige;
+  background-color: black;
+}
+.navbar h1 {
+  color: white;
+}
+
+.navbar .link {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:ghostwhite
+}
+.navbar a:hover {
+  color:gainsboro;
+}
+.prodview{
+  align-items: center;
+  text-align: center;
+}
+.noise{
+  margin-top: 5%;
+  align-items: center;
+  text-align: center;
+}
+.diview{
+  padding-right:5px;
+   padding-left:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+
+}
+.card{
+  
+  margin-top: 20%;
+  border-color: white;
+}
+.img{
+  width:100%;
+}
+.avbtn{
+  border-radius: 10px;
+  background-color: #6060f0;
+  color:white;
+  width:25%; 
+}
+.brand{
+  background-color: black;
+  color:white;
+}
+.divrow{
+  padding-left:20px;  padding-top:5px;
+    background-color: lightgrey;
+}
+.marg{
+  margin-top: 5%;
+}
+.stadiv{
+  align-items: center;
+  text-align: center;
+  margin:5% auto;
+}
+.head{
+  width:100%;
+}
+.rowsupport{
+  background-color: bisque;
+  align-items: center;
+}
+
+
+
+
