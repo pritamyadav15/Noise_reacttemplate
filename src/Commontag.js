@@ -1,14 +1,12 @@
 import React from "react";
 import { Row, Col, Card, Container } from "reactstrap";
 
-
 export default function Commontag() {
   return (
     <div>
       <Container>
         <div className="stadiv">
           <h1>Crafted for your inner 'Noise'</h1>
-
           <h5 style={{ marginTop: 25 }}>
             Founded in 2018, Noise is the leading Indian connected lifestyle
             brand that is changing the way India remains connected and building
@@ -45,12 +43,12 @@ export default function Commontag() {
           <Col sm="3">
             <h3>Follow us</h3>
             <p>
-              <img src="https://cdn.shopify.com/s/files/1/0997/6284/files/Instagram_1x.png?v=1600417234" />{" "}
-              Join over 650K fans
+              <img src="./images/insta.png" />
+                Join over 650K fans
             </p>
             <p>
-              <img src="https://cdn.shopify.com/s/files/1/0997/6284/files/fb_1x.png?v=1600417211" />{" "}
-              over 450K fans
+              <img src="./images/fb.png" />
+                over 450K fans
             </p>
           </Col>
         </Row>

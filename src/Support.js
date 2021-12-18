@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input,
-  Col,
-  Row,
-  Container,
-} from "reactstrap";
+import {Button,Form,FormGroup,Label,Input,Col,Row,Container,} from "reactstrap";
 import Commontag from "./Commontag";
 
 const Support = () => {
@@ -34,35 +25,15 @@ const Support = () => {
             <Form onSubmit={Submit}>
               <FormGroup>
                 <Label for>Email</Label>
-                <Input
-                  type="email"
-                  name="email"
-                  value={data.email}
-                  onChange={InputEvent}
-                  id="exampleEmail"
-                  placeholder="Email"
-                />
+                <Input type="email" name="email" value={data.email}  onChange={InputEvent}
+                  id="email"   placeholder="Email" />
               </FormGroup>
               <FormGroup>
                 <Label for>Password</Label>
-                <Input
-                  type="password"
-                  name="password"
-                  value={data.password}
-                  onChange={InputEvent}
-                  id="examplePassword"
-                  placeholder="Password"
-                />
+                <Input type="password" name="password" value={data.password} 
+                onChange={InputEvent} id="password" placeholder="Password" />
               </FormGroup>
-              <p>
-                {" "}
-                <span>
-                  {" "}
-                  <input type="checkbox" />{" "}
-                </span>{" "}
-                Remember me
-              </p>
-
+              <p> <span> <input type="checkbox" /> </span>  Remember me</p>
               <Button>Sign In</Button>
             </Form>
           </Col>

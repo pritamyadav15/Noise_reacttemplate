@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './Nav';
+import Navbar from './Navbar';
 import Noise from './Noise';
 import Support from './Support';
 import Stories from './Stories';
-import ProductsNoise from './ProductsNoise';
+import Product from './Product';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
           <Routes>
             <Route  excat path="/" element={<Noise />} />
-            <Route  excat path="/products" element={<ProductsNoise />} />
+            <Route  excat path="/products" element={<Product />} />
             <Route  path="/support" element={<Support />} />
             <Route  path="/stories" element={<Stories />} />
           </Routes>

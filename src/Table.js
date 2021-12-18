@@ -62,7 +62,7 @@ function Table() {
    const deleteRow = (index) => {
       if(talbeRows.length > 1){
          var updatedRows = [...talbeRows]
-         var indexToRemove = updatedRows.findIndex(x => x.index == index);
+         var indexToRemove = updatedRows.findIndex(x => x.index === index);
          if(indexToRemove > -1){
             updatedRows.splice(indexToRemove, 1)
             setRows(updatedRows);
